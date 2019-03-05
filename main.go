@@ -14,7 +14,7 @@ type result struct {
 }
 
 func main() {
-	fmt.Print("\n---------------  英汉词典词典 ------------------------\n")
+	fmt.Print("\n---------------  英汉词典 ------------------------\n")
 	fmt.Print(`请输入查询的字段：`)
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
